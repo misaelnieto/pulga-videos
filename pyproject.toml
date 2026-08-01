@@ -1,0 +1,16 @@
+[project]
+name = "pulguita"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyinstaller>=6.12.0",
+    "pytube>=15.0.0",
+    "textual>=2.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "textual-dev>=1.7.0",
+]
